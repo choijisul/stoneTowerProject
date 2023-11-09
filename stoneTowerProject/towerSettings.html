@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/towerSetting.css">
+    <link rel="stylesheet" href="css/towerSettingInput.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="icon" href="./img/icon.png" type="image/png">
+    <title>stone tower</title>
+</head>
+
+<body>
+
+    <!--header-->
+    <header>
+        <div class="container">
+            <h1>
+                <!-- <button onClick="location.href='index.html'"><img src="./img/logo1.png"></button> -->
+                <i onClick="location.href='index.html'" class="pageName">돌맹이타워</i>
+            </h1>
+        </div>
+    </header>
+
+    <div class="title">돌탑 설정</div>
+    <main class="home">
+        <section class="select_background">
+            <section class="bgborder">
+                <p class="background_title">푸른하늘</p>
+                <section class="background_type">
+                    <button class="background_button" id="1" onclick="changeBackground(this)"><img src="./img/skyBackground1.png" class="checkBackground"></button>
+                    <button class="background_button" id="2" onclick="changeBackground(this)"><img src="./img/skyBackground2.png" class="checkBackground"></button>
+                    <button class="background_button" id="3" onclick="changeBackground(this)"><img src="./img/skyBackground3.png" class="checkBackground"></button>
+                    <button class="background_button" id="4" onclick="changeBackground(this)"><img src="./img/skyBackground4.png" class="checkBackground"></button>
+                    <button class="background_button" id="5" onclick="changeBackground(this)"><img src="./img/skyBackground5.png" class="checkBackground"></button>
+                </section>
+                <hr>
+                <p class="background_title">바다</p>
+                <section class="background_type">
+                    <button class="background_button" id="6" onclick="changeBackground(this)"><img src="./img/seaBackground1.png" class="checkBackground"></button>
+                    <button class="background_button" id="7" onclick="changeBackground(this)"><img src="./img/seaBackground2.png" class="checkBackground"></button>
+                    <button class="background_button" id="8" onclick="changeBackground(this)"><img src="./img/seaBackground3.png" class="checkBackground"></button>
+                    <button class="background_button" id="9" onclick="changeBackground(this)"><img src="./img/seaBackground4.png" class="checkBackground"></button>
+                    <button class="background_button" id="10" onclick="changeBackground(this)"><img src="./img/seaBackground5.png" class="checkBackground"></button>
+                </section>
+                <hr>
+                <p class="background_title">꽃밭</p>
+                <section class="background_type">
+                    <button class="background_button" id="11" onclick="changeBackground(this)"><img src="./img/flowerBackground1.png" class="checkBackground"></button>
+                    <button class="background_button" id="12" onclick="changeBackground(this)"><img src="./img/flowerBackground2.png" class="checkBackground"></button>
+                    <button class="background_button" id="13" onclick="changeBackground(this)"><img src="./img/flowerBackground3.png" class="checkBackground"></button>
+                    <button class="background_button" id="14" onclick="changeBackground(this)"><img src="./img/flowerBackground4.png" class="checkBackground"></button>
+                    <button class="background_button" id="15" onclick="changeBackground(this)"><img src="./img/flowerBackground5.png" class="checkBackground"></button>
+                </section>
+                <hr>
+                <p class="background_title">담벼락</p>
+                <section class="background_type">
+                    <button class="background_button" id="16" onclick="changeBackground(this)"><img src="./img/wallBackground1.png" class="checkBackground"></button>
+                    <button class="background_button" id="17" onclick="changeBackground(this)"><img src="./img/wallBackground2.png" class="checkBackground"></button>
+                    <button class="background_button" id="18" onclick="changeBackground(this)"><img src="./img/wallBackground3.png" class="checkBackground"></button>
+                    <button class="background_button" id="19" onclick="changeBackground(this)"><img src="./img/wallBackground4.png" class="checkBackground"></button>
+                    <button class="background_button" id="20" onclick="changeBackground(this)"><img src="./img/wallBackground5.png" class="checkBackground"></button>
+                </section>
+            </section>
+        </section>
+        <section class="setting">
+            <div class="goalTitle">
+                <input type="text" id="titleInput" required maxlength="15">
+                <label>목표제목</label>
+                <span></span>
+            </div>
+            <p class="additional_explanation">15자 이내</p>
+            <div class="goalSetting">
+                <input type="text" id="explanationInput" required maxlength="50">
+                <label>목표설명</label>
+                <span></span>
+            </div>
+            <p class="additional_explanation">50자 이내</p>
+
+            <div class="selectBox2 ">
+                <button class="label">기간 선택</button>
+                <ul class="optionList">
+                    <li class="optionItem">5</li>
+                    <li class="optionItem">6</li>
+                    <li class="optionItem">7</li>
+                    <li class="optionItem">8</li>
+                    <li class="optionItem">9</li>
+                    <li class="optionItem">10</li>
+                    <li class="optionItem">11</li>
+                    <li class="optionItem">12</li>
+                    <li class="optionItem">13</li>
+                    <li class="optionItem">14</li>
+                    <li class="optionItem">15</li>
+                    <li class="optionItem">16</li>
+                    <li class="optionItem">17</li>
+                    <li class="optionItem">18</li>
+                    <li class="optionItem">19</li>
+                    <li class="optionItem">20</li>
+                    <li class="optionItem">21</li>
+                    <li class="optionItem">22</li>
+                    <li class="optionItem">23</li>
+                    <li class="optionItem">24</li>
+                    <li class="optionItem">25</li>
+                    <li class="optionItem">26</li>
+                    <li class="optionItem">27</li>
+                    <li class="optionItem">28</li>
+                    <li class="optionItem">29</li>
+                    <li class="optionItem">30</li>
+                    <li class="optionItem">31</li>
+
+                </ul>
+            </div>
+            <p class="additional_explanation">5 ~ 31 일 이내</p>
+            <button class="start" onClick="location.href='buildingTower.html'">목표 시작하기</button>
+        </section>
+    </main>
+    <script src="js/towerBackground.js" type="module" ></script>
+    <script src="js/period.js" type="module" ></script>
+    <script src="js/towerSetting.js"></script>
+    <script src="js/towerInfo.js"></script>
+
+</body>
+
+</html>

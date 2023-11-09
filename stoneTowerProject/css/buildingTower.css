@@ -1,0 +1,182 @@
+.home {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.building_tower {
+    height: 550px;
+    width: 40%;
+}
+
+/* 타워 쌓는 부분 디자인 */
+.bgborder {
+    flex-direction: column;
+    /* overflow-y: scroll; */
+    margin-left: 25%;
+    width: 70%;
+    height: 600px;
+    background-color: white;
+    /* background-image: ; */
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.main_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 550px;
+    width: 40%;
+}
+
+/* 설명 부분 디자인 */
+.title {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.explanation {
+    text-align: center;
+    flex-direction: column;
+    padding: 13px;
+    width: 80%;
+    height: 90px;
+    background-color: white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+}
+
+.period {
+    text-align: start;
+    margin-top: 20px;
+    flex-direction: column;
+    padding: 13px;
+    width: 80%;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+}
+
+.build_today_stone {
+    padding: 7px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.1rem;
+    background-color: #A5C7E1;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.finish_build {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    visibility: hidden;
+}
+
+.collapse_build {
+    padding: 7px;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.1rem;
+    background-color: #7FA1BB;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+/* 이미지 사진 */
+.background {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    /* 이미지가 컨테이너에 맞게 잘립니다. */
+}
+
+@media screen and (max-width: 1000px) {
+
+    .home {
+        margin-top: 120px;
+    }
+
+    .explanation {
+        width: 85%;
+    }
+
+    .period {
+        width: 85%;
+    }
+
+    .bgborder {
+        flex-direction: column;
+        /* overflow-y: scroll; */
+        margin-left: 0%;
+        width: 100%;
+        height: 550px;
+    }
+
+    .main_text {
+        /* background-color: #A5C7E1; */
+        margin-left: 3%;
+        width: 40%;
+    }
+
+    .build_today_stone {
+        padding: 7px;
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 0.9rem;
+    }
+
+    .finish_build {
+        margin-top: 15px;
+        font-size: 0.9rem;
+    }
+
+    .collapse_build {
+        padding-left: 27px;
+        padding-right: 27px;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .home {
+        flex-direction: column;
+    }
+
+    .building_tower {
+        margin-left: 15%;
+        height: 570px;
+        width: 70%;
+    }
+
+    .main_text {
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .title {
+        margin-top: 0px;
+        font-size: 1.3rem;
+    }
+
+
+    .explanation {
+        width: 98%;
+    }
+
+    .period {
+        width: 98%;
+    }
+}

@@ -1,0 +1,155 @@
+.home {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.title {
+    margin-top: 90px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bgborder {
+    overflow-y: scroll;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-left: 5%;
+    padding-bottom: 30px;
+    width: 60%;
+    height: 560px;
+    background-color: white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.new_goal {
+    margin-top: 30px;
+    width: 90%;
+    height: 100px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(225, 225, 225);
+    border-color: rgb(184, 184, 184);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+.target {
+    text-align: left;
+    margin-top: 25px;
+    padding-left: 20px;
+    width: 90%;
+    height: 90px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: rgb(225, 225, 225);
+    border-color: rgb(184, 184, 184);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+.progress {
+    margin-top: 7px;
+    font-size: 0.9rem;
+}
+
+
+/* 스크롤 디자인1 */
+.bgborder::-webkit-scrollbar {
+    width: 10px;
+    /* 스크롤바의 너비 */
+}
+
+.bgborder::-webkit-scrollbar-thumb {
+    height: 1%;
+    /* 스크롤바의 길이 */
+    background: #A2BECD;
+    /* 스크롤바의 색상 */
+    border-radius: 10px;
+}
+
+.bgborder::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    /*스크롤바 뒷 배경 색상*/
+}
+
+.background_title {
+    font-size: 1.15rem;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+
+/* 스크롤 디자인2 */
+.background_type::-webkit-scrollbar {
+    width: 1px;
+    /* 스크롤바의 너비 */
+}
+
+.background_type::-webkit-scrollbar-thumb {
+    height: 1%;
+    /* 스크롤바의 길이 */
+    background: #A2BECD;
+    /* 스크롤바의 색상 */
+    border-radius: 10px;
+}
+
+.background_type::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    /*스크롤바 뒷 배경 색상*/
+}
+
+.background_type:hover {
+    /*마우스 올리면 반응*/
+    overflow-x: scroll;
+}
+
+.background_button {
+    width: 100px;
+    height: 100px;
+}
+
+/* 반응형  */
+
+@media screen and (max-width: 900px) {
+
+    .bgborder {
+        width: 75%;
+        height: 540px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .bgborder {
+        visibility: none;
+        width: 85%;
+        height: 540px;
+    }
+
+    .new_goal {
+        margin-top: 20px;
+        height: 90px;
+        margin-bottom: 5px;
+    }
+
+    .target {
+        text-align: center;
+        margin-top: 20px;
+        padding-left: 0px;
+        font-size: 1rem;
+    }
+
+    .progress {
+        margin-top: 5px;
+        font-size: 0.8rem;
+    }
+
+}

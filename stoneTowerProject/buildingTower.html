@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/buildingTower.css">
+    <link rel="icon" href="./img/icon.png" type="image/png">
+    <title>stone tower</title>
+</head>
+<body>
+
+    <!--header-->
+    <header>
+        <div class="container">
+            <h1>
+                <!-- <button onClick="location.href='index.html'"><img src="./img/logo1.png"></button> -->
+                <i onClick="location.href='index.html'" class="pageName">돌맹이타워</i>
+            </h1>
+        </div>
+    </header>
+
+    <main class="home">
+        <section class="building_tower">
+            <section class="bgborder">
+                <img src="./img/background_sky2.png" id="imageElement" class="background">
+            </section>
+        </section>
+        <section class="main_text">
+            <p class="title" id="title2">제목 불러오기</p>
+            <section class="explanation">
+                <p id="explanation2">설명 불러오기</p>
+            </section>
+            <section class="period">
+                <p id="period">기간 : (몇) 일</p>
+                <p id="count_period">쌓은 돌맹이 : 0 일</p>                        
+            </section>
+            <button class="build_today_stone" value="이미지 생성" id="click">오늘의 돌맹이 쌓기</button>
+            <p class="finish_build">오늘의 돌맹이 쌓기 완료!</p>
+            <button class="collapse_build">돌탑 무너뜨리기</button>
+        </section>
+    </main>
+
+    <script src="js/towerBackgroundInput.js" type="module"></script>
+    <script src="js/periodInput.js" type="module"></script>
+    <script src="js/towerInfo.js" type="module"></script>
+    <script src="js/towerInfoInput.js" type="module"></script>
+    <script src="js/buttonClickStone.js" type="module"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</body>
+
+</html>
