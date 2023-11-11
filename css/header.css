@@ -39,8 +39,12 @@ header p {
     margin-bottom: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Dodum&display=swap');
+
 /* 로고 디자인 */
 .pageName {
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Gowun Dodum', sans-serif;
     margin-left: 8px;
     font-size: 1.5rem;
     font-weight: bold;

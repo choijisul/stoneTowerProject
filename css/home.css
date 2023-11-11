@@ -38,6 +38,7 @@
 }
 
 .target {
+    position: relative;
     text-align: left;
     margin-top: 25px;
     padding-left: 20px;
@@ -45,10 +46,27 @@
     height: 90px;
     font-size: 1.1rem;
     font-weight: bold;
-    background-color: rgb(225, 225, 225);
     border-color: rgb(184, 184, 184);
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
     border-radius: 7px;
+    overflow: hidden; /* 이미지가 버튼을 넘어가지 않도록 설정 */
+}
+
+.goalButton {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.target_text,
+.progress {
+    position: relative;
+    z-index: 2;
 }
 
 .progress {
@@ -111,6 +129,7 @@
     width: 100px;
     height: 100px;
 }
+
 
 /* 반응형  */
 
