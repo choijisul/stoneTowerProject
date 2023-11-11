@@ -1,6 +1,5 @@
 # stoneTowerProject
 
-<a href="https://stonetowerj.netlify.app">웹사이트 주소</a>
 <br><br><hr>
 
 ## 개요
@@ -10,7 +9,7 @@
 <pre><span style="color:#FFCCCC">돌탑을 쌓는다는 행위로 성취감을 얻을 수 있고, 더욱 의욕을 가질 수 있다.</pre>
 
 <br><br>
-
+<a href="https://stonetowerj.netlify.app">웹사이트 주소</a>
 ## 시나리오 <br>
 1. 메인화면에서 새로운 목표를 클릭합니다.
 2. 원하는 배경 화면을 선택합니다.
