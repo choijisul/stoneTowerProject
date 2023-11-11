@@ -27,12 +27,12 @@ button.addEventListener('click', incrementCount);
 var collapseButton = document.querySelector('.collapse_build');
 
 collapseButton.addEventListener('click', function () {
-    var confirmation = confirm('지금 까지 쌓은 목표가 무너집니다 돌탑을 무너뜨리겠습니까?');
+    var confirmation = confirm('지금까지 쌓은 목표가 무너집니다. 돌탑을 무너뜨리겠습니까?');
 
     if (confirmation) {
-        alert('돌탑이 무너졌습니다. (홈화면으로 이동합니다.)');
+        alert('돌탑이 무너졌습니다. (홈 화면으로 이동합니다.)');
         window.location.href = 'index.html';
     } else {
-        alert('잘 생각하셨습니다. 굿 좝~~');
+        alert('잘 생각하셨습니다.');
     }
 });
