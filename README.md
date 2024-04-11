@@ -5,7 +5,7 @@
 
 <br><br>
 <pre><span>
-<a href="https://musical-travesseiro-2513c7.netlify.app](https://www.figma.com/file/JLtnWxa84NjEjqci44aE2m/%EB%8F%8C%EB%A9%A9%EC%9D%B4%ED%83%80%EC%9B%8C?type=design&node-id=0-1&mode=design&t=ChNltVxAvcQHs5nN-0">figma</a><br>
+<a href="https://www.figma.com/file/JLtnWxa84NjEjqci44aE2m/%EB%8F%8C%EB%A9%A9%EC%9D%B4%ED%83%80%EC%9B%8C?type=design&mode=design&t=1K0R9uLOWwOAcryP-0">figma</a><br>
 <a href="https://stonetowerj.netlify.app">웹사이트 주소</a><br>
 Language  :  HTML, JavaScrip, CSS <br>
 tool  :  Visual Studio Code
